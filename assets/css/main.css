@@ -1,0 +1,425 @@
+.full{
+	float: left;
+	width: 100%;
+}
+
+
+
+.rodape{
+	float: left;
+	width: 100%;
+	min-height: 56px;
+}
+
+.topo-logo{
+	width: 30px;
+}
+
+.nome-rodape{
+	padding-top: 20px;
+	font-size: 1em;
+	color: rgb(207, 21, 4);
+}
+
+.fundo-rodape{
+	background-color: #1c1c1c;
+	padding-left: 30px;
+}
+@font-face {
+    font-family: 'Alice_in_Wonderland_3';
+    src: url('../fonts/Alice_in_Wonderland_3.ttf');
+}
+
+@font-face {
+    font-family: 'OldLondon';
+    src: url('../fonts/OldLondon.ttf');
+}
+
+
+.topo{
+	font-family: 'Alice_in_Wonderland_3';
+	color: rgb(207, 21, 4);
+	padding-top: 5px;
+    font-size: 2.3em;
+}
+
+.imagem1{
+	height: auto;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.imagem-principal{
+	width: 100%;
+	filter: invert(13%);
+}
+
+.navbar-margem{
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.links-cores a{
+	text-decoration: none;
+	color: rgb(207, 21, 4);
+}
+
+.quem-somos{
+	min-height: 400px;
+	background-color: #1c1c1c;
+}
+
+.texto-quem-somos{
+	color: #fff;
+	text-align: center;
+}
+
+.texto-quem-somos h4{
+	padding-top: 2em;
+	line-height: 1.4em;
+}
+
+.objetivo-principal{
+	text-align: center;
+}
+
+.objetivo-principal h4{
+	padding-bottom: 45px;
+}
+
+
+.tipo-lista{
+	text-align: left;
+	list-style-type: none;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-conosco {
+    background-repeat:no-repeat;
+    background-color: black;
+    opacity: 0.5;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border-radius: 3px;
+    font-size: 3em;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    margin-top: 200px;
+}
+
+.button-conosco:hover {
+	color: red;
+}
+
+.fundo-staff{
+	background-color: #1c1c1c;
+	min-height: 550px;
+}
+
+.text-staff p{
+	text-align: center;
+	font-size: 5em;
+	color: rgb(207, 21, 4);;
+	font-family: 'OldLondon';
+	margin-top: 20px;
+}
+
+.img-lider img{
+	width: 273px;
+}
+
+.img-lider p{
+	color: rgb(207, 21, 4);
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    font-size: 2.2em;
+    font-family: 'OldLondon';
+}
+
+.img-oficcer img{
+	width: 100px;
+   
+}
+
+.img-oficcer p{
+	color: rgb(207, 21, 4);;
+    margin-top: 10px;
+    font-size: 1.8em;
+    font-family: 'OldLondon';
+    left: 50%;
+    position: relative;
+    text-align: center;
+    transform: translateX(-50%);
+
+}
+
+.img-pvp{
+	width: 75px;
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+.img-pvp:hover{
+	transform: rotate(360deg);
+	-webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.corpo-objetivo{
+	padding-bottom: 20px;
+}
+
+.pvp p{
+	font-size: 2em;
+	font-weight: bold;
+	font-family: 'Alice_in_Wonderland_3';
+	text-align: center;
+}
+
+@media screen and (max-width: 990px) {
+
+.img-oficcer p{
+	font-size: 3.8em;
+	}
+	.img-lider p{
+		font-size: 3.8em;
+	}
+
+}
+
+.parallax-contato {
+    /* The image used */
+    background-image: url("../images/contato.jpg");
+
+    /* Set a specific height */
+    min-height: 880px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contato-discord{
+    margin-top: 50px;
+}
+
+.cor-telao{
+    background-color: black;
+    opacity: 0.5;
+}
+
+.cor-telao h1 ,.cor-telao p{
+    color: white;
+    text-align: center;
+}
+
+.button-discord{
+    padding: 8px 79px;
+    font-size: 34px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+a {
+    color: #fff;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(207, 21, 4);
+}
+
+a:active{
+    text-decoration: none;
+}
+
+.imagem-guia{
+    background-image: url(../images/contato.jpg);
+    min-height: 350px;
+}
+
+.imagem-inicial-guia{
+    width: 100%;
+    min-height: 350px;
+}
+
+.imagem-inicial-guias p{
+    color: rgb(207, 21, 4);
+    text-align: center;
+    padding-top: 130px;
+    font-size: 4em;
+    font-family: 'Alice_in_Wonderland_3';
+}
+
+.imagem-news{
+    background-image: url(../images/noticias.jpg);
+    min-height: 350px;
+}
+
+.imagem-inicial-news{
+    width: 100%;
+    min-height: 350px;
+}
+
+.imagem-inicial-news p{
+    color: rgb(207, 21, 4);
+    text-align: center;
+    padding-top: 130px;
+    font-size: 4em;
+    font-family: 'Alice_in_Wonderland_3';
+}
+
+.guias{
+    min-height: 350px;
+    background-color: #fff;
+    padding-bottom: 290px;
+}
+
+.margem-guia{
+    margin:20px; 
+}
+
+.caption h2{
+     font-family: 'Alice_in_Wonderland_3';
+     color: rgb(207, 21, 4);
+     text-align: center;
+}
+
+.guia-quadros{
+    margin:10px;
+}
+
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Alice_in_Wonderland_3';
+     
+     font-size: 3em;
+ }
+
+  .isotopeSelector img {
+    width: 100%;
+    height: 200px;
+}
+
+.isotopeSelector:hover img {
+    -webkit-transform: scale(1.2) rotate(0);
+    transform: scale(1.2) rotate(0)
+}
+
+.isotopeSelector figure {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.isotopeSelector figure {
+    box-shadow: none !important;
+}
+
+.isotopeSelector .overlay-background {
+    border-radius: 4px;
+}
+
+
+.isotopeSelector .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -ms-filter: "alpha(opacity=$value)";
+    filter: alpha(opacity =     0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    border-radius: 4px
+}
+
+.isotopeSelector .overlay .fancybox-pop {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center
+}
+
+.isotopeSelector .overlay .fancybox-pop p {
+    width: 100%;
+    height: 40px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+    font-size: 26px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    transition: all .3s ease-in-out
+}
+
+.isotopeSelector:hover .overlay {
+    -ms-filter: "alpha(opacity=$value)";
+    filter: alpha(opacity =     1);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1
+}
+
+.isotopeSelector:hover .overlay .overlayInfo {
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.isotopeSelector:hover h4 {
+    color: #ea7066
+}
+
+.topo-guias{
+    margin-top: 50px;
+}
+
+.rollIn p{
+
+}
